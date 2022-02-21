@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/representaciones",
+      "handler": "representaciones.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/representaciones/count",
+      "handler": "representaciones.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/representaciones/:id",
+      "handler": "representaciones.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/representaciones",
+      "handler": "representaciones.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/representaciones/:id",
+      "handler": "representaciones.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/representaciones/:id",
+      "handler": "representaciones.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
