@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "servicios",
+  "info": {
+    "name": "Servicios",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "especificaciones": {
+      "type": "text"
+    },
+    "imagen": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
