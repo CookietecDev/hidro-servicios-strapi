@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "servicios",
+  "collectionName": "categorias",
   "info": {
-    "name": "Servicios",
-    "description": ""
+    "name": "Categorias"
   },
   "options": {
     "increments": true,
@@ -14,12 +13,6 @@
   "attributes": {
     "nombre": {
       "type": "string"
-    },
-    "descripcion": {
-      "type": "text"
-    },
-    "especificaciones": {
-      "type": "text"
     },
     "imagen": {
       "model": "file",

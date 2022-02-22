@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "servicios",
+  "collectionName": "promociones",
   "info": {
-    "name": "Servicios",
-    "description": ""
+    "name": "Promociones"
   },
   "options": {
     "increments": true,
@@ -12,15 +11,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "nombre": {
-      "type": "string"
-    },
-    "descripcion": {
-      "type": "text"
-    },
-    "especificaciones": {
-      "type": "text"
-    },
     "imagen": {
       "model": "file",
       "via": "related",

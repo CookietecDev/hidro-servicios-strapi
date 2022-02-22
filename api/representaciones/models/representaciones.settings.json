@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "representaciones",
   "info": {
-    "name": "Representaciones"
+    "name": "Representaciones",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -15,7 +16,7 @@
       "type": "string"
     },
     "imagen": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
